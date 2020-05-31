@@ -1,0 +1,21 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+
+.vscode
+.idea
+.env
+.DS_Store
+
+ormconfig.json
+
+coverage/
+node_modules/
+dist/
+tmp/*
+!tmp/.gitkeep
+
+yarn-error.log
+yarn.lock
