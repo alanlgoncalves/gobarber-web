@@ -30,7 +30,9 @@ const ForgotPassword: React.FC = () => {
 
   const handleSubmit = useCallback(
     async (data: ForgotPasswordFormData) => {
-      formRef.current?.setErrors({});
+      if (formRef.current) {
+        formRef.current.setErrors({});
+      }
 
       try {
         setLoading(true);
@@ -57,7 +59,9 @@ const ForgotPassword: React.FC = () => {
         if (err instanceof Yup.ValidationError) {
           const errors = getValidationErrors(err);
 
-          formRef.current?.setErrors(errors);
+          if (formRef.current) {
+            formRef.current.setErrors(errors);
+          }
 
           return;
         }
