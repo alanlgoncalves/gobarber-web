@@ -1,5 +1,5 @@
-import React, { ChangeEvent, FormEvent, useCallback, useRef } from 'react';
-import { FiMail, FiUser, FiLock, FiArrowLeft, FiCamera } from 'react-icons/fi';
+import React, { ChangeEvent, useCallback, useRef } from 'react';
+import { FiArrowLeft, FiCamera, FiLock, FiMail, FiUser } from 'react-icons/fi';
 import { FormHandles } from '@unform/core';
 import { Form } from '@unform/web';
 import * as Yup from 'yup';
@@ -14,7 +14,7 @@ import getValidationErrors from '../../utils/getValidationErrors';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 
-import { Container, Content, AvatarInput } from './styles';
+import { AvatarInput, Container, Content } from './styles';
 import { useAuth } from '../../hooks/Auth';
 
 interface ProfileFormData {
