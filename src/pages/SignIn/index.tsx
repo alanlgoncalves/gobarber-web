@@ -1,5 +1,5 @@
-import React, { useRef, useCallback } from 'react';
-import { FiLogIn, FiMail, FiLock } from 'react-icons/fi';
+import React, { useCallback, useRef } from 'react';
+import { FiLock, FiLogIn, FiMail } from 'react-icons/fi';
 import { Form } from '@unform/web';
 import { FormHandles } from '@unform/core';
 import * as Yup from 'yup';
@@ -14,7 +14,7 @@ import logoImg from '../../assets/logo.svg';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 
-import { Container, Content, AnimationContainer, Background } from './styles';
+import { AnimationContainer, Background, Container, Content } from './styles';
 
 interface SignFormData {
   email: string;
@@ -93,7 +93,7 @@ const SignIn: React.FC = () => {
               name="password"
               icon={FiLock}
               type="password"
-              placeholder="Password"
+              placeholder="Senha"
             />
             <Button type="submit">Entrar</Button>
 
