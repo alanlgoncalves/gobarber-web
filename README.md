@@ -7,6 +7,9 @@
 
 This project is a front-end website developed for [GoBarber API](https://github.com/alanlgoncalves/gobarber-api).
 
+![GoBarber Web](https://alansantos.dev/wp-content/uploads/2020/12/GoBarber-Web.gif)
+
+
 ## Technologies
 
 - Typescript
