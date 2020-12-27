@@ -1,4 +1,5 @@
 # GOBARBER-WEB
+[![Netlify Status](https://api.netlify.com/api/v1/badges/adf3df95-71ba-48c6-bb95-051a8283a2ca/deploy-status)](https://app.netlify.com/sites/gallant-bhabha-e75fb8/deploys)
 [![Build Status](https://travis-ci.com/alanlgoncalves/gobarber-web.svg?branch=master)](https://travis-ci.com/alanlgoncalves/gobarber-web)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=alanlgoncalves_gobarber-web&metric=alert_status)](https://sonarcloud.io/dashboard?id=alanlgoncalves_gobarber-web)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=alanlgoncalves_gobarber-web&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=alanlgoncalves_gobarber-web)
